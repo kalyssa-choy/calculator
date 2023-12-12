@@ -1,0 +1,54 @@
+#base{
+    width: 600px;
+    height: 800px;
+    border-radius: 10px;
+    background: #d1d1d1;
+    margin: 80px auto;
+    border: solid black 1px;
+}
+#buttons{
+    width: 30rem;
+    height: 29rem;
+    margin: 20px auto;
+}
+.operator{
+    background: rgb(247, 67, 67);
+}
+.operator:active{
+    background-color: rgb(216, 55, 55);
+}
+.nonoperator{
+    background: white;
+}
+.nonoperator:active{
+    background-color: #ebebeb;
+}
+#buttons button{
+    display: inline-block;
+    width: 100px;
+    height: 90px;
+    margin: 8px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+#clear{
+    display: block;
+    width: 60%;
+    margin: auto;
+    height: 10%;
+    background: rgb(247, 67, 67);
+    border: none;
+    border-radius: 20px;
+    font-size: 100%;
+}
+#clear:active{
+    background-color: rgb(216, 55, 55);
+}
+#input{
+    width: 500px;
+    height: 70px;
+    background: white;
+    margin: 40px auto;
+    text-align: right;
+}
